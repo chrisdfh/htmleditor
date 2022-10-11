@@ -1,0 +1,22 @@
+.max-height{
+    height: 100vh;
+}
+.editor{
+    font-family: monospace;
+    font-size: 11px;
+    background-color: #262424;
+}
+textarea{
+    background-color: #262424;
+    color:white;
+}
+*{
+    box-sizing: border-box;
+}
+firma{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color:white;
+    font-weight: bold;
+}
