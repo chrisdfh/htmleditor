@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-rtf.css">
+    <script src="script-rtf.js" defer></script>
+    <script src="https://use.fontawesome.com/a31a3f8384.js"></script>
+    <title>Editor HTML</title>
+</head>
+<body>
+
+<style>
+
+</style>
+<div class="container-fluid max-height position-relative">
+    <div class="row h-100">
+        <div class="col-12 col-md-6 g-1">
+            <div class="text-editor-header">
+                <a type="button" class="boton" data-comando="bold">
+                    <i class="fa fa-bold"></i>
+                </a>
+                <a type="button" class="boton" data-comando="italic">
+                    <i class="fa fa-italic"></i>
+                </a>
+                <a type="button" class="boton" data-comando="underline">
+                    <i class="fa fa-underline"></i>
+                </a>
+                <a type="button" class="boton" data-comando="insertUnorderedList">
+                    <i class="fa fa-list-ul"></i>
+                </a>
+                <a type="button" class="boton" data-comando="insertOrderedList">
+                    <i class="fa fa-list-ol"></i>
+                </a>
+                <a type="button" class="boton" data-comando="createLink">
+                    <i class="fa fa-link"></i>
+                </a>
+                <a type="button" class="boton" data-comando="removeFormat">
+                    <i class="fa fa-eraser"></i>
+                </a>
+                <a type="button" class="boton" data-comando="justifyLeft">
+                    <i class="fa fa-align-left"></i>
+                </a>
+                <a type="button" class="boton" data-comando="superscript">
+                    <i class="fa fa-superscript"></i>
+                </a>
+                <a type="button" class="boton" data-comando="subscript">
+                    <i class="fa fa-subscript"></i>
+                </a>
+                <a type="button" class="boton" data-comando="justifyCenter">
+                    <i class="fa fa-align-center"></i>
+                </a>
+                <a type="button" class="boton" data-comando="justifyRight">
+                    <i class="fa fa-align-right"></i>
+                </a>
+                <a type="button" class="boton" data-comando="justifyFull">
+                    <i class="fa fa-align-justify"></i>
+                </a>
+                <a type="button" class="boton" data-comando="insertImage">
+                    <i class="fa fa-image"></i>
+                </a>
+            </div>
+            <div class="editor h-100" contenteditable="true" id="rtf-editor">
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 g-1">
+            <div class="w-100 h-100 border">
+
+                <pre class="salida" id="salida"></pre>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<firma>
+    Hecho por Christian De Freitas
+</firma>
+</body>
+
+</html>

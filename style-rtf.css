@@ -1,0 +1,43 @@
+.editor{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding:20px;
+}
+.boton{
+    border:none;
+    padding:5px;
+}
+.text-editor-header{
+    background-color: white ;
+    text-align: center;
+    border:2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+.text-editor-header .boton{
+    background-color: white ;
+    cursor: pointer;
+    text-decoration: none;
+    color:#262424;
+    display: inline-block;
+    transition: 0.3s;
+
+}
+.text-editor-header .boton:hover{
+    background-color: #262424 ;
+    color:white;
+    text-decoration: none;
+
+}
+
+a{
+    margin:0;
+    padding:0;
+    line-height: 1px;
+}
+.salida{
+    padding:20px;
+}
