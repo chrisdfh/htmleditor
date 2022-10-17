@@ -16,6 +16,7 @@
     border-top-right-radius: 10px;
     display:flex;
     justify-content: space-around;
+    overflow-x: auto;
 }
 .text-editor-header .boton{
     background-color: white ;
@@ -24,12 +25,14 @@
     color:#262424;
     display: inline-block;
     transition: 0.3s;
+    box-shadow: none;
 
 }
 .text-editor-header .boton:hover{
     background-color: #262424 ;
     color:white;
     text-decoration: none;
+    box-shadow: 1px 1px 2px #26242480;
 
 }
 
@@ -37,7 +40,12 @@ a{
     margin:0;
     padding:0;
     line-height: 1px;
+    border-radius: 2px;
+    margin:2px;
 }
 .salida{
     padding:20px;
+}
+a i,a.boton {
+
 }

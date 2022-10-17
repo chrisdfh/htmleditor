@@ -5,7 +5,6 @@ const botones = document.querySelectorAll('.boton')
 document.execCommand("styleWithCSS")
 botones.forEach(boton=>{
     boton.addEventListener('click',()=>{
-
         const command = boton.dataset["comando"]
         let argument = null
         if (command == "createLink" || command == "insertImage"){
